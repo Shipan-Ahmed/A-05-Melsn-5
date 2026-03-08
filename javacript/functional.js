@@ -1,0 +1,1 @@
+console.log("funtional js is comming! bro");
