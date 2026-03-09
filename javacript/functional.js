@@ -108,28 +108,19 @@ document.querySelectorAll(".tabBtn").forEach(btn => {
 
 // for search functionality
 
-// document.getElementById("searchBtn").addEventListener("click", () => {
-// //   removeActive();
-//   const inputValue = document.getElementById("input").value.trim().toLowerCase();
-//   // console.log(inputValue);
-//   // use of trim() means remove whitespace from both ends of a string
-
-//   fetch(`https://phi-lab-server.vercel.app/api/v1/lab/issues/search?q=${inputValue}`)
-//     .then((res) => res.json())
-//     .then((data) => {
-//       const allWords = data.data;
-//         const foundWords = allWords.filter((word) =>
-//             word.title.toLowerCase().includes(inputValue),
-//             console.log(word.title);
-//       );
-//       if (foundWords.length === 0) {
-//         alert("No card found!");
-//         return;
-//       }
-//       renderUI(foundWords);
-//     });
-// });
-
+document.getElementById("searchBtn").addEventListener("click", () => {
+    const inputValue = document.getElementById("input").value.trim().toLowerCase();
+    fetch(`https://phi-lab-server.vercel.app/api/v1/lab/issues/search?q=${inputValue}`)
+        .then((res) => res.json())
+        .then((data) => {
+            const allIssues = data.data;
+            const foundIssues = allIssues.filter((issue) =>
+                issue.title.toLowerCase().includes(inputValue)
+            );
+            renderUI(foundIssues);
+            
+        });
+});
 
 // Initial load
 loadData(currentTab);
