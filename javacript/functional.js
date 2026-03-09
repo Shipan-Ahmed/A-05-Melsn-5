@@ -63,7 +63,7 @@ const manageSpinner = (isLoading) => {
 const createElement = (levels) => {
   const arr = levels.map(
     (el) =>
-      `<span class="p-1 gap-1 text-center items-center bg-green-100  rounded-xl" > ${el.toUpperCase()}</span>`,
+      `<span class="p-1 gap-1 text-center text-xs items-center bg-green-100  rounded-xl" > ${el.toUpperCase()}</span>`,
   );
   return arr.join(" ");
 };
@@ -118,7 +118,7 @@ const renderUI = (issuesArr) => {
                      <p><img class="w-6 h-6 mx-auto" src=" ${issue.status === "open" ? "./assets/Open-Status.png" : "./assets/Closed-Status.png"}" alt="Open Status Logo"></p>
                     <p class="${issue.priority === "low" ? "bg-blue-100 text-blue-400" : issue.priority === "medium" ? "bg-yellow-100 text-yellow-400" : "bg-red-100 text-red-400"} px-8 py-1 rounded-2xl">${issue.priority.toUpperCase()}</p>
                  </div>
-                 <h2 class="font-semibold text-xl">${issue.title}</h2>
+                 <h2 class="font-semibold ">${issue.title}</h2>
                  <p class="text-gray-600">${issue.description}</p>
                  <p class="space-x-2 flex flex-start">${createElement(issue.labels)}</p>
              </div>
