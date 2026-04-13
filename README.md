@@ -8,6 +8,7 @@ A responsive web application that allows users to browse, filter, and search iss
 
 github-issues-tracker-seven.vercel.app
 
+
 ---
 
 ## 🔑 Demo Credentials
