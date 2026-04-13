@@ -6,7 +6,9 @@ A responsive web application that allows users to browse, filter, and search iss
 
 ## 🚀 Live Demo
 
-github-issues-tracker-seven.vercel.app
+
+https://github-issues-tracker-5c5pet7gj-shipanahmed1999-3519s-projects.vercel.app
+
 
 
 ---
