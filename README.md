@@ -6,7 +6,7 @@ A responsive web application that allows users to browse, filter, and search iss
 
 ## 🚀 Live Demo
 
-🔗 https://your-live-site-link.com
+github-issues-tracker-seven.vercel.app
 
 ---
 
@@ -66,13 +66,16 @@ A responsive web application that allows users to browse, filter, and search iss
 ## 📸 UI Preview
 
 ### 🔐 Login Page
-![Login](./screenshots/login.png)
+<img width="1827" height="856" alt="image" src="https://github.com/user-attachments/assets/33901096-2aa3-4b81-b1d1-bc6b9788e36b" />
+
 
 ### 📋 Issues Dashboard
-![Dashboard](./screenshots/dashboard.png)
+<img width="1918" height="882" alt="image" src="https://github.com/user-attachments/assets/cc1c561a-a108-46f3-8c65-1f9667a33dfc" />
+
 
 ### 🪟 Issue Modal
-![Modal](./screenshots/modal.png)
+<img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/d982c47b-e9aa-4306-8b72-a7c7d03898aa" />
+
 
 ---
 
